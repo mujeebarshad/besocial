@@ -1,0 +1,296 @@
+
+body {
+    background-color: #e9eaed;
+}
+nav.navbar-default {
+    display: inline-block;
+    padding-bottom: 3px;
+    padding-top: 2%;
+    opacity: 1;
+    background-color: rgba(0,0,0,0.5);
+    font-family: Lato-Regular;
+    font-size: 1.5em;
+    font-weight: 100;
+    border-color: black;
+}   
+
+.navbar-brand {
+    font-size: 1.4em;
+   
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: white;
+    transition: 2s;
+    
+    
+}
+/*** Cover Picture ***/
+
+
+.cover {
+  background: url('http://www.largehdwallpapers.com/wp-content/uploads/2016/05/Cute-Girl-Dance-On-Road-HD-Wallpapers.jpg') no-repeat;
+  height: 300px;
+  width: 1000px;
+  background-size: 1000px 480px;
+  background-position: bottom center;
+  margin: 0 auto;
+  box-shadow: -3px 3px 0px 3px #333, -30px 30px 15px rgba(0, 0, 0, .4);
+  transform: rotate3d(1, 1, 0, 0deg);    
+  border-radius: 10px;
+  transition: all .4s;
+  
+}
+.cover:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
+   transform: rotate3d(1, 1, 0, 20deg);
+    box-shadow: -3px 3px 0px 3px #333, -30px 30px 15px rgba(0, 0, 0, .4); 
+    border-radius: 10px;
+}
+
+/*** /Cover Picture ***/
+
+/*** Profile Picture ***/
+
+
+
+#menu-nav {
+  float:left;
+  width:90%;
+  height:auto;
+  margin:30px 0;
+  background-color:#ecf0f1;
+  border-radius:4px;
+  overflow:hidden;
+  box-shadow:0 0 5px rgba(0,0,0,0.3);
+}
+
+/* navigation bar */
+#navigation-bar {
+  width:100%;
+}
+  
+#navigation-bar ul {
+    margin:0; padding:0;
+    list-style:none;
+    width:100%;
+    border-radius:4px;
+    overflow:hidden;
+}
+  
+#navigation-bar li {
+    float:left;
+    padding:0; margin:0;
+    width:25%;
+}
+  
+#navigation-bar a {
+    color:#848484;
+    font-size:20px; 
+    text-decoration:none; text-align:center;
+    width:100%;
+    padding:20px 0;
+    display:block; position:relative;
+    transition: all 0.3s ease;
+}
+
+#navigation-bar a:hover {color:#e74c3c;}
+/*  #navigation-bar li:first-child a {border-radius:4px 0 0 4px;}
+#navigation-bar li:last-child a {border-radius:0 4px 4px 0;}  */
+#navigation-bar a:before {
+  content:'';
+  transition:all .4s ease-in-out;
+  position:absolute; right:50%; left:50%; bottom:0;
+  display:block;
+  height:2px;
+  background-color:#e74c3c;
+} 
+#navigation-bar li:hover a:before, #navigation-bar a:hover:before {right:0; left:0;}
+#navigation-bar span {display:block;}
+
+
+
+
+.snip1515 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  line-height: 1.4em;
+  font-size: 14px;
+  box-shadow: none !important;
+}
+
+.snip1515 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.snip1515 .profile-image {
+  display: inline-block;
+  width: 80%;
+  z-index: 1;
+  position: relative;
+  padding: 10px;
+  border: 2px solid #e8b563;
+}
+
+.snip1515 .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1515 figcaption {
+  width: 100%;
+  background-color: #F2F2F2;
+  color: #555;
+  padding: 125px 25px 25px;
+  margin-top: -100px;
+  display: inline-block;
+}
+
+.snip1515 h3,
+.snip1515 h4,
+.snip1515 p {
+  margin: 0 0 5px;
+}
+
+.snip1515 h3 {
+  font-weight: 600;
+  font-size: 1.3em;
+  font-family: 'Playfair Display', Arial, sans-serif;
+}
+
+.snip1515 h4 {
+  color: #8c8c8c;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.snip1515 p {
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.snip1515 .icons {
+  text-align: center;
+  width: 100%;
+}
+
+.snip1515 i {
+  padding: 10px 2px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: normal;
+  color: #e8b563;
+  opacity: 0.75;
+}
+
+.snip1515 i:hover {
+  opacity: 1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+
+/*** /Profile Picture ***/
+
+
+
+/***Like ***/
+
+.like {
+  height:100px;
+  margin:0 auto;
+  position: relative;
+}
+
+.bt {
+  cursor:pointer;
+  padding:10px 12px 8px;
+  background:#e9eaed;
+  border-radius:50%;
+  display:inline-block;
+  margin:0 0 15px;
+  color:#FFF;
+  transition:.2s;
+}
+
+.bt:hover {
+  color:white;
+}
+
+.bt:before {
+  font-family:fontawesome;
+  content:'\f004';
+  font-style:normal;
+}
+
+.lk {
+  position: absolute;
+  bottom:70px;
+  left:0;
+  right:0;
+  visibility: hidden;
+  transition:.6s;
+  z-index:-2;
+  font-size:2px;
+  color:transparent;
+  font-weight:400;
+}
+
+.lk.press {
+  animation: size .4s;
+  color:#e23b3b;
+}
+
+.lk.press {
+  bottom:120px;
+  font-size:14px;
+  visibility:visible;
+  animation: fade 1s;
+}
+
+@keyframes fade {
+  0% {color:transparent;}
+  50% {color:#e23b3b;}
+  100% {color:transparent;}
+}
+
+@keyframes size {
+  0% {padding:10px 12px 8px;}
+  50% {padding:14px 16px 12px;  
+    margin-top:-4px;}
+  100% {padding:10px 12px 8px;}
+}
+
+
+/**Like**/
+
+@media (max-width:768px) {
+    .cover {
+     height: 100px;
+      width: 250px;
+     background-size: 250px 100px ;
+  
+}
+    .detail .text {
+  left: 5px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 100px;
+  font-family: cursive;
+    
+}
+   
+}
